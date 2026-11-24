@@ -1,0 +1,18 @@
+solicitud_id,decision,nivel_concedido,vencimiento_dias,regla_aplicada,motivo
+S-01,conceder,leer,30,6,"Leer la fórmula basta para calcular el CAC; es confidencial, así que vence y la revisa el comité."
+S-02,denegar,ninguno,,3,Un agente nunca recibe escribir sobre la fórmula del CAC; el cambio de fórmula lo propone una persona al comité.
+S-03,denegar,ninguno,,9,Duplicada: A-02 ya tiene leer sobre R-03.
+S-04,denegar,ninguno,,3,"Un agente nunca escribe la fórmula, ni con urgencia; el reporte no se publica con el error (regla 7) y la corrección va al comité."
+S-05,denegar,ninguno,,1,"Con borrador, que ya tiene, puede responder; escribir sin revisión excede lo mínimo aunque atención sea crítica."
+S-06,denegar,ninguno,,1,La base de clientes completa excede lo que necesita para saber qué salas tienen reunión.
+S-07,denegar,ninguno,,1,Un redactor publica con borrador, que ya tiene; escribir directo excede lo mínimo.
+S-08,escalar,ninguno,,4,"A-05 cumplió 30 días el 23 de noviembre pero sigue marcado en prueba; el jefe comercial confirma su estado antes de abrir un recurso confidencial."
+S-09,denegar,ninguno,,1,Para saber quién puede escribir la fórmula basta la lista de accesos; no necesita leer la fórmula.
+S-10,denegar,ninguno,,5,A-08 no tiene dueño humano y no recibe accesos nuevos.
+S-11,denegar,ninguno,,9,Duplicada: A-09 ya tiene leer sobre R-08; además está pausado (regla 5).
+S-12,denegar,ninguno,,9,Duplicada: A-04 ya tiene ejecutar sobre R-04.
+S-13,denegar,ninguno,,4,A-10 está en prueba desde el 16 de noviembre y no escribe; sigue con borrador.
+S-14,denegar,ninguno,,9,Duplicada de S-05: vale la primera.
+S-15,conceder,leer,30,6,"Leer el historial es lo mínimo para responder bien; es confidencial, así que vence y lo revisa el jefe comercial."
+S-16,denegar,ninguno,,5,A-09 está pausado desde el 10 de noviembre y no recibe accesos nuevos.
+S-17,denegar,ninguno,,5,A-11 no está en agentes.csv ni tiene dueño humano registrado.
