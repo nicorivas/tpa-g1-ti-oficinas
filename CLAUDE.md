@@ -5,8 +5,8 @@ Este repositorio es el proyecto de gobernanza de la oficina virtual de agentes d
 ## Qué hay en cada archivo
 - `reglas.md` contiene las reglas de acceso de los agentes y la fórmula del CAC.
 - `proyecto.md` es la plantilla donde el grupo escribe el problema, para quién es y cómo se mide.
-- `traspaso.md` es la nota para quien siga el trabajo.
-- `REVIEW.md` dice cómo se revisa un cambio.
+- `traspaso.md` es la nota para quien siga el trabajo, con cinco partes: qué cambió, qué quedó pendiente, qué decidimos y por qué, qué no hay que tocar y cuál es el siguiente paso.
+- `REVIEW.md` dice cómo se revisa un cambio, en cinco puntos.
 - `seis-preguntas.md` es la plantilla de las seis preguntas del equipo con IA.
 - `verificar.py` revisa algunas reglas duras de una propuesta (no todas): pasarlo no basta.
 - `datos/` contiene las planillas en formato csv.
@@ -22,7 +22,8 @@ Este repositorio es el proyecto de gobernanza de la oficina virtual de agentes d
 - No cambiar archivos que no tengan relación con la tarea.
 
 ## Reglas del proceso
-- Un cambio a la fórmula del CAC o a las reglas lo aprueba el comité de gestión. El acceso a cada recurso lo aprueba su dueño. Un agente no aprueba nada.
+- Un cambio a la fórmula del CAC o a las reglas lo aprueba el comité de gestión. El acceso a cada recurso lo aprueba su dueño (columna `dueno_recurso` de `recursos.csv`). Un agente no aprueba nada: propone, y el grupo decide una propuesta.
+- Hoy es 24 de noviembre de 2026.
 - Los cambios que el grupo haga a las reglas 1 y 2 en el taller son una propuesta del grupo como dueño y quedan pendientes de ratificación del comité.
 - Ningún agente recibe el nivel escribir sobre la fórmula del CAC, sin excepciones. Una persona solo la cambia con la aprobación del comité.
 - Solo se trabaja con los datos de `datos/`, que son inventados. Nunca pegar RUT, correos ni nombres de personas en archivos del repositorio, ni siquiera de ejemplo. Los nombres de los agentes sí pueden usarse.
@@ -45,4 +46,4 @@ Este repositorio es el proyecto de gobernanza de la oficina virtual de agentes d
 ## Notas generales
 - Mantener este archivo actualizado.
 - Consultar los demás archivos para más detalle.
-- El traspaso lo escribe el grupo al cerrar, no cada autor: va en `traspaso.md`, con la tabla de `seis-preguntas.md`.
+- El traspaso lo escribe el grupo al cerrar, no cada autor: va en `traspaso.md`. Las seis preguntas del equipo se contestan en `seis-preguntas.md`.

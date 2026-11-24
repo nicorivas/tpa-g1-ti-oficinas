@@ -1,21 +1,14 @@
 # Traspaso
 
-## Las seis preguntas
+Lo escribe el grupo al cerrar, no cada autor. Debe entenderse solo, terminar con un paso concreto y decir lo que no se sabe.
 
-Una línea por pregunta, con un archivo o una acción real de hoy.
-
-| Pregunta | Nuestra línea de hoy |
-|---|---|
-| Responsabilidad | |
-| Acceso | |
-| Coordinación | |
-| Calidad | |
-| Visibilidad | |
-| Riesgo | |
+## Qué cambió
 
 ## Qué quedó pendiente
 - Ratificación del comité de gestión de los cambios a las reglas 1 y 2 hechos en el taller (propuesta del grupo como dueño).
 
-## Cuál es el siguiente paso
+## Qué decidimos y por qué
 
 ## Qué no hay que tocar
+
+## Cuál es el siguiente paso
