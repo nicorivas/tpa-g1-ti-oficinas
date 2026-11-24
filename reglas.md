@@ -2,8 +2,8 @@
 
 Niveles de acceso, de menor a mayor: leer, borrador (deja una propuesta que una persona aplica), escribir (cambia directo) y ejecutar (dispara acciones, como encender o enviar).
 
-1. Mínimo privilegio: cada agente recibe solo el nivel que su cargo necesita. Si pide más, se le da el nivel menor con el que pueda hacer su trabajo.
-2. Continuidad del servicio: un agente que atiende un servicio crítico no puede quedarse sin el acceso que ese servicio necesita para atender.
+1. Mínimo privilegio: cada agente recibe solo el nivel que su cargo necesita. Si pide más, se le da el nivel menor con el que pueda hacer su trabajo. Si choca con la regla 2, manda la regla 2.
+2. Continuidad del servicio (va antes que la regla 1): un agente que atiende un servicio crítico recibe el acceso que ese servicio necesita para atender, aunque sea más que el mínimo de su cargo. Ese acceso vence a los 7 días y lo revisa el dueño del recurso: al vencer vuelve al mínimo de la regla 1, salvo que el dueño lo renueve. Los servicios críticos son atención y monitoreo. Esta regla no pasa por encima de las reglas 3, 4, 5 y 6.
 3. Nadie, persona o agente, cambia la fórmula del CAC sin la aprobación del comité de gestión. Un agente nunca recibe el nivel escribir sobre la fórmula del CAC. Sin excepciones.
 4. Un agente en prueba (sus primeros 30 días) solo lee recursos internos y deja borradores. No escribe ni ejecuta.
 5. Un agente pausado o sin dueño humano no recibe accesos nuevos.
