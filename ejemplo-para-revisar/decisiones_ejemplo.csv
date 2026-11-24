@@ -1,0 +1,17 @@
+solicitud_id,decision,nivel_concedido,vencimiento_dias,regla_aplicada,motivo
+S-01,conceder,leer,30,6,Necesita la fórmula para calcular el CAC.
+S-02,escalar,ninguno,,3,Cambia la fórmula: lo decide el comité.
+S-03,conceder,leer,,1,Audita los reportes.
+S-04,conceder,escribir,7,2,Hay que corregir el reporte antes de las 18:00.
+S-05,conceder,escribir,7,2,Atención es un servicio crítico.
+S-06,conceder,leer,7,2,Evita apagar televisores en reuniones.
+S-07,conceder,escribir,,2,Comunicaciones lo necesita.
+S-08,conceder,leer,7,6,Personaliza correos.
+S-09,conceder,leer,30,6,Revisa quién escribe la fórmula.
+S-10,conceder,leer,30,2,Mantiene la documentación.
+S-11,conceder,leer,30,6,Informe de costos.
+S-12,conceder,ejecutar,,2,Enciende los televisores.
+S-13,conceder,borrador,,,Sube cambios como borrador.
+S-14,conceder,escribir,7,2,Atención es un servicio crítico.
+S-15,conceder,leer,7,6,Historial al responder.
+S-16,conceder,escribir,7,8,Lo autorizó la gerencia.

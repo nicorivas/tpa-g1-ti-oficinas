@@ -1,0 +1,11 @@
+agente_id,nombre,cargo,dueno_humano,estado,fecha_estado,servicio
+A-01,Lupa,analista de KPI,jefe de control de gestión,activo,,reportes
+A-02,Balanza,auditor de reportes,jefe de control de gestión,activo,,auditoría
+A-03,Timbre,atención a clientes,jefe de atención,activo,,atención
+A-04,Faro,monitoreo de televisores,jefe de TI,activo,,monitoreo
+A-05,Pluma,redactor de correos,jefe comercial,prueba,2026-10-24,comunicaciones
+A-06,Brújula,analista de marketing,jefe de marketing,activo,,marketing
+A-07,Cerrojo,gobernanza de permisos,jefe de TI,activo,,gobernanza
+A-08,Tuerca,documentación,,activo,,documentación
+A-09,Nube,costos de nube,jefe de TI,pausado,2026-11-10,costos
+A-10,Trazo,generador de código,jefe de sistemas,prueba,2026-11-16,código

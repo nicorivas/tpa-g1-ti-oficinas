@@ -1,0 +1,12 @@
+agente_id,recurso_id,nivel
+A-01,R-03,escribir
+A-01,R-05,leer
+A-02,R-03,leer
+A-03,R-02,borrador
+A-04,R-04,ejecutar
+A-05,R-01,borrador
+A-06,R-01,leer
+A-07,R-03,leer
+A-08,R-07,leer
+A-09,R-08,leer
+A-10,R-07,borrador

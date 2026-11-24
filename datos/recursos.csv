@@ -1,0 +1,9 @@
+recurso_id,nombre,sensibilidad,dueno_recurso,requiere_comite
+R-01,Chat de ventas,interna,jefe comercial,no
+R-02,Correo de atención,confidencial,jefe de atención,no
+R-03,Reportes de KPI,interna,jefe de control de gestión,no
+R-04,Panel de televisores en red,interna,jefe de TI,no
+R-05,Fórmula del CAC,confidencial,comité de gestión,sí
+R-06,Base de clientes,confidencial,jefe comercial,no
+R-07,Repositorio de código,interna,jefe de sistemas,no
+R-08,Facturación de nube,confidencial,jefe de TI,no
